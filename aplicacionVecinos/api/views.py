@@ -1,11 +1,9 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import Publicacion, Usuario, Categoria, JuntaVecinal, Evidencia
+from .models import Publicacion ,Categoria, Evidencia
 from .serializers import (
     PublicacionSerializer,
-    UsuarioSerializer,
     CategoriaSerializer,
-    JuntaVecinalSerializer,
     EvidenciaSerializer
 )
 
